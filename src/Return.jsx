@@ -30,7 +30,7 @@ function App() {
           .post(
             `${process.env.REACT_APP_SERVER}/api/transaction/activelocation`,
             {
-              city: 'Chennai', // two types fetch location data, All or City name
+              city: 'All', // two types fetch location data, All or City name
             },
             {
               headers: {
